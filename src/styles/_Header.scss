@@ -1,0 +1,10 @@
+header {
+    background-color: lightgreen;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    & p {
+        padding: 0 30px;
+        color:black;
+    }
+}
