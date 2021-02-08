@@ -1,12 +1,12 @@
-nav {
+.ppal-nav {
     width: 100vw;
     background-color: teal;
     padding-left: 20px;
-    ul {
+    .nav-list {
         display: flex;
         align-items: center;
         justify-content: flex-start;
-        li {
+        .option {
             padding: 10px;
             a {
                 color: black;

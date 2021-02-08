@@ -5,47 +5,57 @@
   list-style: none;
   box-sizing: border-box; }
 
-div {
+.layout {
   position: relative; }
 
-header {
+.header {
   background-color: lightgreen;
   padding: 20px;
   display: flex;
   justify-content: space-between; }
-  header p {
+  .header p {
     padding: 0 30px;
     color: black; }
 
-nav {
+.ppal-nav {
   width: 100vw;
   background-color: teal;
   padding-left: 20px; }
-  nav ul {
+  .ppal-nav .nav-list {
     display: flex;
     align-items: center;
     justify-content: flex-start; }
-    nav ul li {
+    .ppal-nav .nav-list .option {
       padding: 10px; }
-      nav ul li a {
+      .ppal-nav .nav-list .option a {
         color: black;
         cursor: pointer; }
-        nav ul li a:hover {
+        .ppal-nav .nav-list .option a:hover {
           color: white; }
 
-main {
+.main {
   background-color: whitesmoke;
-  height: 80vh; }
+  width: 1200px; }
+  .main .main-content {
+    text-align: center; }
 
-aside {
-  background-color: yellowgreen; }
-  aside float:right
-p {
-    font-style: italic; }
+.content {
+  display: flex;
+  flex-direction: row-reverse;
+  height: 85vh; }
+  .content .aside {
+    background-color: yellowgreen;
+    width: 300px; }
+    .content .aside .aside-content {
+      text-align: center;
+      font-style: italic; }
 
-footer {
+.footer {
   bottom: 0;
-  background-color: lightcyan;
-  position: absolute; }
-  footer p {
-    color: darkslategrey; }
+  background-color: cornflowerblue;
+  position: absolute;
+  right: 0;
+  left: 0; }
+  .footer p {
+    text-align: center;
+    color: black; }

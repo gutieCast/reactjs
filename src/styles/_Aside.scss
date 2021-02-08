@@ -1,7 +1,13 @@
-aside {
-    background-color: yellowgreen;
-    float:right
-    p {
-        font-style: italic;
+.content {
+    display: flex;
+    flex-direction: row-reverse;
+    height: 85vh;
+    .aside {
+        background-color: yellowgreen;
+        width: 300px;
+        .aside-content {
+            text-align: center;
+            font-style: italic;
+        }
     }
 }

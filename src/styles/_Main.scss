@@ -1,4 +1,7 @@
-main {
+.main {
     background-color: whitesmoke;
-    height: 80vh;
+    width: 1200px;
+    .main-content {
+        text-align: center;
+    }
 }

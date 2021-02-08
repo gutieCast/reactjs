@@ -1,8 +1,11 @@
-footer {
+.footer {
     bottom: 0;
-    background-color: lightcyan;
+    background-color: cornflowerblue;
     position: absolute;
+    right: 0;
+    left: 0;
     p {
-        color: darkslategrey;
+        text-align: center;
+        color: black;
     }
 }
